@@ -13,8 +13,8 @@ body {
   display: flex;
   position: sticky;
   top: 0px;
-  opacity: 1.8;
-    z-index: -3;
+  opacity: 1;
+    z-index: 8;
   background-color: #ddd;
   justify-content: center;
   text-align: center;
@@ -41,7 +41,7 @@ body {
   background-color: rgb(79, 52, 52);
   position: sticky;
   top: 60px;
-    opacity: 0.7;
+    opacity: 1;
     z-index: 47;
 }
 .navb{
@@ -109,4 +109,12 @@ img{
   width:50%;
   opacity: 0.9;
   z-index: -7;
+}
+
+@media (max-width: 700px) {
+   .navbar {   
+    flex-direction: row;
+    overflow: scroll;
+  }
+  
 }
