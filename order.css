@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+body {
+    background-color: rgb(224, 237, 52);
+}
+.box-wrapper {
+    
+    width:2000px;
+    display: flex;
+    
+   
+}
+.box {
+    border: 1px solid #666; 
+}
+.box1 {
+    color: rgb(221, 0, 255);
+    text-align: center;
+    width: 300px;
+    height: 800px;
+    background-color: rgb(18, 19, 11);
+}
+.box2 {
+    font-family: 'Alice', serif;
+    font-size: 25px;
+    color: rgb(249, 255, 69);
+    background-image: url("rest-modified.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+    width:1000px;
+    height: 1200px;
+    background-color: bisque;
+
+}
+.nav {
+     margin-left: 2px;
+     overflow: hidden;
+}
+.nav a{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(245, 223, 60);
+    display: block;
+    padding: 50px;
+    
+}
+.nav a:hover {
+    background-color: rgb(226, 240, 37);
+    color: rgb(36, 33, 6);
+    
+}
